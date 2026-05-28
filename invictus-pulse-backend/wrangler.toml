@@ -1,0 +1,5 @@
+name = "invictus-pulse-worker"
+type = "module"
+
+[triggers]
+crons = ["*/15 * * * *"]
