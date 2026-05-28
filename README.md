@@ -7,11 +7,17 @@ Users can discover businesses without websites, manage outreach pipelines, track
 
 # env
 Create an env file with the following api keys
+
     - supabase url
+
     - supabase service role key
+
     - google client id
+
     - google client secret
+
     - google redirect uri
+
     - google places api
 
 # Background worker deployment
@@ -19,6 +25,8 @@ Check AGENTS.md for instructions on how to deploy background worker
 
 # Running localhost server
 npm i
+
 npm run build
+
 npm run dev
 
