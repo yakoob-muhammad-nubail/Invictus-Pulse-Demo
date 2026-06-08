@@ -40,9 +40,9 @@ interface SettingsPageProps {
   industryLabel: string;
 }
 
-const GOOGLE_AUTH_URL = "https://invictus-pulse-backend.invictuspulse.workers.dev/auth/google";
-const GOOGLE_STATUS_URL = "https://invictus-pulse-backend.invictuspulse.workers.dev/auth/google/status";
-const GOOGLE_DISCONNECT_URL = "https://invictus-pulse-backend.invictuspulse.workers.dev/auth/google/disconnect";
+const GOOGLE_AUTH_URL = "*********/auth/google";
+const GOOGLE_STATUS_URL = "*********/auth/google/status";
+const GOOGLE_DISCONNECT_URL = "*********/auth/google/disconnect";
 
 export function SettingsPage({ industryLabel }: SettingsPageProps) {
   const { user, session, updateUser, orgId } = useAuth();

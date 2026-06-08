@@ -5,8 +5,8 @@ import { toast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 import { MessagesPage } from "../shared/MessagesPage";
 
-const GMAIL_SYNC_URL = "https://invictus-pulse-backend.invictuspulse.workers.dev/gmail/sync";
-const GOOGLE_STATUS_URL = "https://invictus-pulse-backend.invictuspulse.workers.dev/auth/google/status";
+const GMAIL_SYNC_URL = "*********/gmail/sync";
+const GOOGLE_STATUS_URL = "*********/auth/google/status";
 
 type EmailRow = {
   id: string;
