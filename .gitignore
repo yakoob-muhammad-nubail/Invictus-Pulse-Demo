@@ -23,3 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Purged from git history; keep only as local untracked files if needed
+invictus-pulse-backend/src/index.ts
+src/api/leads.ts
+src/api/analytics.ts
